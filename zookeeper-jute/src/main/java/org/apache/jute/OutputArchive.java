@@ -45,9 +45,9 @@ public interface OutputArchive {
     void writeBuffer(byte[] buf, String tag)
             throws IOException;
 
-    void writeRecord(Record r, String tag) throws IOException;
-
     void startRecord(Record r, String tag) throws IOException;
+
+    void writeRecord(Record r, String tag) throws IOException;
 
     void endRecord(Record r, String tag) throws IOException;
 
