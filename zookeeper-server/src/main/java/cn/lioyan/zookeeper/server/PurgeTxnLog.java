@@ -1,4 +1,4 @@
-package cn.lioyan.zookeeper;
+package cn.lioyan.zookeeper.server;
 
 import java.io.File;
 
